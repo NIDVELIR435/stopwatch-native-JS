@@ -1,0 +1,36 @@
+.scoreboard {
+   width: 200px;
+   margin: 0 auto;
+   margin-top: 100px;
+   padding: 10px;
+   border-radius: 5px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   background-color: yellow;
+   display: flex;
+   justify-content: space-around;
+}
+.scoreboard__item {
+   width: 30px;
+   text-align: center;
+   font-weight: 500;
+}
+.button {
+   display: flex;
+   justify-content: space-between;
+   width: 200px;
+   margin: 10px auto;
+}
+button {
+   width: 100px;
+   margin: 0 2px;
+   border-radius: 5px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+}
+button:hover {
+   background-color: blue;
+   color: white;
+}
